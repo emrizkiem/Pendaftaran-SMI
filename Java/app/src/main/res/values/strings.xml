@@ -1,3 +1,37 @@
 <resources>
-    <string name="app_name">RegisterSMI</string>
+    <string name="app_name">SMI Untirta</string>
+    <string name="welcome_back">Selamat datang kembali!</string>
+    <string name="welcome_back_description">Gunakan nama pengguna dan kata sandi ketika mendaftar untuk masuk ke akun kamu</string>
+    <string name="forgot_password">Lupa kata sandi?</string>
+    <string name="username">Nama pengguna</string>
+    <string name="password">Kata sandi</string>
+    <string name="login">Masuk</string>
+    <string name="dont_have_account">Belum punya akun? Daftar</string>
+    <string name="already_account">Sudah punya akun? Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="join_with_me_title">Gabung bersama SMI!</string>
+    <string name="join_with_me_desc">Daftar dan ikuti seleksi untuk bergabung bersama Studio Manajemen Industri Untirta</string>
+    <string name="email">Email</string>
+    <string name="date_birthday">Tanggal Lahir</string>
+    <string name="gpa">IP Terakhir</string>
+    <string name="address">Domisili</string>
+    <string name="motivation_letter">Surat Motivasi (Motivation Letter)</string>
+
+    <string-array name="data_title_onboard">
+        <item>Team Work</item>
+        <item>Networking</item>
+        <item>Organization</item>
+    </string-array>
+
+    <string-array name="data_desc_onboard">
+        <item>Studio Manajemen Industri membuat rasa solidaritas akan kerjasama tim selalu terbentuk di setiap kegiatan.</item>
+        <item>Bangun jejaring bersama para alumni dan tim di Studio Manajemen Industri.</item>
+        <item>Melatih berorganisasi di lingkungan kampus dan berkontribusi untuk kampus.</item>
+    </string-array>
+
+    <integer-array name="data_img_onboard">
+        <item>@drawable/ic_partnership</item>
+        <item>@drawable/ic_networking</item>
+        <item>@drawable/ic_organization</item>
+    </integer-array>
 </resources>
