@@ -1,46 +1,40 @@
-package com.emrizkiem.registersmi.ui.splashscreen;
+package com.emrizkiem.registersmi.ui.home.admin;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.view.animation.AnimationUtils;
 
-import com.emrizkiem.registersmi.R;
-import com.emrizkiem.registersmi.databinding.ActivitySplashscreenBinding;
-import com.emrizkiem.registersmi.ui.onboard.OnBoardingActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class SplashscreenActivity extends AppCompatActivity {
+import com.emrizkiem.registersmi.databinding.ActivityHomeAdminBinding;
 
-    private ActivitySplashscreenBinding binding;
+public class HomeAdminActivity extends AppCompatActivity {
+
+    private ActivityHomeAdminBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivitySplashscreenBinding.inflate(getLayoutInflater());
+        binding = ActivityHomeAdminBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         makeStatusBarTransparent();
+    }
 
-        binding.imgLogo.setAnimation(AnimationUtils.loadAnimation(this, R.anim.bounce));
+    private void setTopBar() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            binding.scrollable.setOnScrollChangeListener(new View.OnScrollChangeListener() {
+                @Override
+                public void onScrollChange(View view, int scrollX, int scrollY, int i2, int i3) {
+                    float elevation = 15f;
 
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(SplashscreenActivity.this, OnBoardingActivity.class);
-                startActivity(intent);
-
-                finish();
-            }
-        }, 2000);
+                }
+            });
+        }
     }
 
     private void makeStatusBarTransparent() {

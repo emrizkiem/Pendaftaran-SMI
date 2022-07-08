@@ -14,4 +14,11 @@
         <!-- Customize your theme here. -->
         <item name="android:windowTranslucentStatus">true</item>
     </style>
+
+    <!-- This style for chips [Baru Mendaftar, Lulus, Gagal] -->
+    <style name="chipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:background">@drawable/bg_chip</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">13sp</item>
+    </style>
 </resources>

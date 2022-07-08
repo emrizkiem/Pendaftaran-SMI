@@ -16,6 +16,7 @@
     <string name="gpa">IP Terakhir</string>
     <string name="address">Domisili</string>
     <string name="motivation_letter">Surat Motivasi (Motivation Letter)</string>
+    <string name="smi_lab_untirta">SMI Lab Untirta</string>
 
     <string-array name="data_title_onboard">
         <item>Team Work</item>

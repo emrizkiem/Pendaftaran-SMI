@@ -63,6 +63,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void makeStatusBarTransparent() {
+        // This function to make StatusBar Transparent
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Window window = getWindow();
             window.clearFlags(

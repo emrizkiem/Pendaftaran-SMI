@@ -19,6 +19,7 @@ import android.view.WindowManager;
 
 import com.emrizkiem.registersmi.R;
 import com.emrizkiem.registersmi.databinding.ActivityLoginBinding;
+import com.emrizkiem.registersmi.ui.home.admin.HomeAdminActivity;
 import com.emrizkiem.registersmi.ui.register.RegisterActivity;
 
 public class LoginActivity extends AppCompatActivity {
@@ -31,6 +32,12 @@ public class LoginActivity extends AppCompatActivity {
 
         binding = ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        binding.btnLogin.setOnClickListener((View v) -> {
+            // Goto Admin/Member page;
+            Intent goToHome = new Intent(LoginActivity.this, HomeAdminActivity.class);
+            startActivity(goToHome);
+        });
 
         customizeText();
         makeStatusBarTransparent();
@@ -65,6 +72,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void makeStatusBarTransparent() {
+        // This function to make StatusBar Transparent
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Window window = getWindow();
             window.clearFlags(

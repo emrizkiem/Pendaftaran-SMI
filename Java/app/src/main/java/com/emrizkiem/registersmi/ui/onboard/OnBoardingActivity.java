@@ -86,6 +86,7 @@ public class OnBoardingActivity extends AppCompatActivity {
     }
 
     private void makeStatusBarTransparent() {
+        // This function to make StatusBar Transparent
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Window window = getWindow();
             window.clearFlags(
@@ -100,6 +101,7 @@ public class OnBoardingActivity extends AppCompatActivity {
     }
 
     public class Timer extends TimerTask {
+        // This class for slider automatic with timer
         @Override
         public void run() {
             OnBoardingActivity.this.runOnUiThread(new Runnable() {

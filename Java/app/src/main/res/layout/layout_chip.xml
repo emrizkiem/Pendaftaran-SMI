@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.ChipGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chip_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="24dp"
+    android:layout_marginEnd="8dp"
+    app:checkedChip="@id/chip_one"
+    app:selectionRequired="true"
+    app:singleSelection="true">
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baru Mendaftar"
+        android:checkable="true"
+        android:textAppearance="@style/chipStyle"
+        android:textColor="@drawable/text_chip_selection"
+        app:checkedIconVisible="false"
+        app:chipBackgroundColor="@drawable/bg_chip_selection"
+        app:chipCornerRadius="16dp"
+        app:chipStrokeColor="@color/black"
+        app:chipStrokeWidth="1dp"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lulus"
+        android:textAppearance="@style/chipStyle"
+        android:textColor="@drawable/text_chip_selection"
+        app:checkedIconVisible="false"
+        app:chipBackgroundColor="@drawable/bg_chip_selection"
+        app:chipCornerRadius="16dp"
+        app:chipStrokeColor="@color/black"
+        app:chipStrokeWidth="1dp"/>
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gagal"
+        android:textAppearance="@style/chipStyle"
+        android:textColor="@drawable/text_chip_selection"
+        app:checkedIconVisible="false"
+        app:chipBackgroundColor="@drawable/bg_chip_selection"
+        app:chipCornerRadius="16dp"
+        app:chipStrokeColor="@color/black"
+        app:chipStrokeWidth="1dp"/>
+
+</com.google.android.material.chip.ChipGroup>
