@@ -85,6 +85,9 @@
             app:boxStrokeColor="@color/blue"
             app:hintTextColor="@color/blue"
             app:expandedHintEnabled="false"
+            app:errorIconTint="@color/red"
+            app:errorTextColor="@color/red"
+            app:boxStrokeErrorColor="@color/red"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dotted">
@@ -113,6 +116,9 @@
             app:boxStrokeColor="@color/blue"
             app:hintTextColor="@color/blue"
             app:expandedHintEnabled="false"
+            app:errorIconTint="@color/red"
+            app:errorTextColor="@color/red"
+            app:boxStrokeErrorColor="@color/red"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/til_email">
@@ -141,6 +147,10 @@
             app:boxStrokeColor="@color/blue"
             app:hintTextColor="@color/blue"
             app:expandedHintEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:errorIconTint="@color/red"
+            app:errorTextColor="@color/red"
+            app:boxStrokeErrorColor="@color/red"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/til_username">
@@ -169,6 +179,9 @@
             app:boxStrokeColor="@color/blue"
             app:hintTextColor="@color/blue"
             app:expandedHintEnabled="false"
+            app:errorIconTint="@color/red"
+            app:errorTextColor="@color/red"
+            app:boxStrokeErrorColor="@color/red"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/til_password">
@@ -177,9 +190,9 @@
                 android:id="@+id/edt_date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Masukkan tanggal lahir Anda"
+                android:hint="08 July 2000"
                 android:fontFamily="@font/montserrat_medium"
-                android:inputType="date"
+                android:focusable="false"
                 android:maxLines="1" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -197,6 +210,9 @@
             app:boxStrokeColor="@color/blue"
             app:hintTextColor="@color/blue"
             app:expandedHintEnabled="false"
+            app:errorIconTint="@color/red"
+            app:errorTextColor="@color/red"
+            app:boxStrokeErrorColor="@color/red"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/til_date">
@@ -207,7 +223,7 @@
                 android:layout_height="wrap_content"
                 android:hint="Masukkan IP terkahir Anda"
                 android:fontFamily="@font/montserrat_medium"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:maxLines="1" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -225,6 +241,9 @@
             app:boxStrokeColor="@color/blue"
             app:hintTextColor="@color/blue"
             app:expandedHintEnabled="false"
+            app:errorIconTint="@color/red"
+            app:errorTextColor="@color/red"
+            app:boxStrokeErrorColor="@color/red"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/til_gpa">
@@ -253,12 +272,15 @@
             app:boxStrokeColor="@color/blue"
             app:hintTextColor="@color/blue"
             app:expandedHintEnabled="false"
+            app:errorIconTint="@color/red"
+            app:errorTextColor="@color/red"
+            app:boxStrokeErrorColor="@color/red"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/til_address">
 
             <EditText
-                android:id="@+id/edt_motivation_address"
+                android:id="@+id/edt_motivation_letter"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:maxLength="250"

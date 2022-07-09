@@ -17,6 +17,17 @@
     <string name="address">Domisili</string>
     <string name="motivation_letter">Surat Motivasi (Motivation Letter)</string>
     <string name="smi_lab_untirta">SMI Lab Untirta</string>
+    <string name="error_message_email">Please enter a valid email address</string>
+    <string name="error_message_username">Please enter your username</string>
+    <string name="error_message_password">Min. 6 characters with a mix of letters and numbers</string>
+    <string name="error_message_date">Please enter your date of birth</string>
+    <string name="error_message_gpa">Please enter your last GPA</string>
+    <string name="error_message_address">Please enter your address</string>
+    <string name="error_message_motivation">Please enter motivation letter max. 250 character</string>
+    <string name="success_registered">Akun sudah berhasil dibuat!</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="error_data_not_available">User not available</string>
 
     <string-array name="data_title_onboard">
         <item>Team Work</item>

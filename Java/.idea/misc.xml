@@ -14,11 +14,15 @@
         <entry key="app/src/main/res/drawable/ic_settings.xml" value="0.168" />
         <entry key="app/src/main/res/drawable/tab_selector.xml" value="0.5" />
         <entry key="app/src/main/res/drawable/text_chip_selection.xml" value="0.168" />
+        <entry key="app/src/main/res/drawable/toast_error.xml" value="0.168" />
+        <entry key="app/src/main/res/drawable/toast_success.xml" value="0.168" />
         <entry key="app/src/main/res/layout/activity_home_admin.xml" value="0.2375" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_on_boarding.xml" value="0.2375" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/content_onboarding.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/content_onboarding.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/custom_toast_error.xml" value="0.23645833333333333" />
+        <entry key="app/src/main/res/layout/custom_toast_success.xml" value="0.2375" />
         <entry key="app/src/main/res/layout/item_data_member.xml" value="0.2375" />
         <entry key="app/src/main/res/layout/layout_chip.xml" value="0.2375" />
         <entry key="app/src/main/res/layout/test.xml" value="0.23645833333333333" />

@@ -13,6 +13,7 @@
         <item name="android:statusBarColor" >@android:color/transparent</item>
         <!-- Customize your theme here. -->
         <item name="android:windowTranslucentStatus">true</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
     </style>
 
     <!-- This style for chips [Baru Mendaftar, Lulus, Gagal] -->
