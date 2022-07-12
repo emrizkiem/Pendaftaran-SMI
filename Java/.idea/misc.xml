@@ -16,7 +16,7 @@
         <entry key="app/src/main/res/drawable/text_chip_selection.xml" value="0.168" />
         <entry key="app/src/main/res/drawable/toast_error.xml" value="0.168" />
         <entry key="app/src/main/res/drawable/toast_success.xml" value="0.168" />
-        <entry key="app/src/main/res/layout/activity_home_admin.xml" value="0.2375" />
+        <entry key="app/src/main/res/layout/activity_home_admin.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_on_boarding.xml" value="0.2375" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />

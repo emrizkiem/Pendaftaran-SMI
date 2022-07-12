@@ -6,6 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.emrizkiem.registersmi.ui.home.admin.HomeAdminViewModel;
 import com.emrizkiem.registersmi.ui.login.LoginViewModel;
 import com.emrizkiem.registersmi.ui.register.RegisterViewModel;
 
@@ -34,6 +35,8 @@ public class ViewModelFactory extends ViewModelProvider.NewInstanceFactory {
             return (T) new RegisterViewModel(mApplication);
         } else if (modelClass.isAssignableFrom(LoginViewModel.class)) {
             return (T) new LoginViewModel(mApplication);
+        } else if (modelClass.isAssignableFrom(HomeAdminViewModel.class)) {
+            return (T) new HomeAdminViewModel(mApplication);
         }
 
         throw new IllegalArgumentException("Unknown ViewModel class: " + modelClass.getName());
